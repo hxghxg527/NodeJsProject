@@ -1,0 +1,22 @@
+{
+  "name": "NodeJsProject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hxghxg527/NodeJsProject.git"
+  },
+  "author": "hxg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hxghxg527/NodeJsProject/issues"
+  },
+  "homepage": "https://github.com/hxghxg527/NodeJsProject",
+  "dependencies": {
+    "express": "^4.11.0"
+  }
+}

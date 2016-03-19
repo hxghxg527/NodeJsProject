@@ -1,0 +1,19 @@
+{
+  "name": "NodeJsProject",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "hxg"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/hxghxg527/NodeJsProject",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "bower_lib",
+    "test",
+    "tests"
+  ]
+}

@@ -4,7 +4,7 @@
 'use strict';
 
 $.get({
-    url: 'http://localhost:8080/'
+    url: 'http://localhost:8080/src/data/test.json'
 }).success(function (data) {
     console.log(data);
 }).error(function () {

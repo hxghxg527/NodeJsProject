@@ -18,6 +18,7 @@
   "homepage": "https://github.com/hxghxg527/NodeJsProject",
   "dependencies": {
     "bower": "^1.7.7",
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "require": "^2.4.20"
   }
 }

@@ -4,7 +4,11 @@
 'use strict';
 
 var express = require('express'),
-    app = express();
+    app = express(),
+    Parser = require('./modules/parser');
+
+var parser = new Parser();
+console.log(parser.parse(5));
 
 app.use(express.static(__dirname + '/public'));
 

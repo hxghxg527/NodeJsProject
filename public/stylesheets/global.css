@@ -1,0 +1,17 @@
+html, body {
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.btn {
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100px;
+    text-align: center;
+    height: 24px;
+    line-height: 24px;
+    font-size: 13px;
+}

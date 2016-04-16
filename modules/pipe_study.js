@@ -15,3 +15,6 @@ var app = http.createServer(function (req, res) {
 app.listen(8080);
 
 console.log('服务器监听在8080端口...');
+
+
+fs.createReadStream('../images/nodejs-2560x1440.png').pipe(fs.createWriteStream('../images/nodejs2.png'));

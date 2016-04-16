@@ -7,29 +7,28 @@ var http = require('http'),
     Promise = require('bluebird');
 
 var baseUrl = 'http://www.imooc.com/learn/';
+var courseId = [51, 156, 203, 556, 504];
 
 function getData(url) {
     return new Promise(function (resolve, rejected) {
         http.get(url, function (res) {
             var html = '';
+
             console.log('开始抓取： ' + url);
+
             res.on('data', function (data) {
                 html += data;
             });
 
             res.on('end', function () {
-                //console.log(html);
-                //printData(filterHtml(html));
                 resolve(html);
             });
         }).on('error', function () {
             rejected('抓取页面失败。。。');
-            //console.log('抓取页面失败。。。');
         });
     });
 }
 
-var courseId = [51, 156, 203, 556, 504];
 var promiseArr = [];
 
 courseId.forEach(function (item) {
@@ -51,6 +50,7 @@ function filterHtml(html) {
     var courseName = $('.course-infos .path span').text();
     var static_item = $('.statics .static-item');
     var studyNum = static_item.eq(static_item.length - 1).find('span').eq(0).text();
+
     var lastData = {
         courseName: courseName,
         studyNum: studyNum,

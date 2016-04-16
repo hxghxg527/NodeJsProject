@@ -17,8 +17,14 @@
   },
   "homepage": "https://github.com/hxghxg527/NodeJsProject",
   "dependencies": {
+    "bluebird": "^3.3.5",
     "bower": "^1.7.7",
+    "cheerio": "^0.20.0",
     "express": "^4.13.4",
+    "logger": "0.0.1",
     "require": "^2.4.20"
+  },
+  "devDependencies": {
+    "favicon": "0.0.2"
   }
 }

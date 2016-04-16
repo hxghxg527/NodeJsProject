@@ -13,9 +13,11 @@ var app = express();
 var parser = new Parser();
 console.log(parser.parse(5));
 
-app.use(express.static(__dirname + '/public'));
+//app.use(express.static(__dirname + '/public'));
+//app.use(express.static(path.join(__dirname, 'public')));
+//app.use('/public', express.static(path.join(__dirname, 'public')));
 
-//app.use('/static', express.static('public'));
+//app.use('/public', express.static('public'));
 //res.sendFile()
 //app.use(function (err, req, res, next) {
 //    console.log('xx');

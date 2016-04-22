@@ -2,7 +2,7 @@ div {
     box-sizing: border-box;
 }
 
-.pipe-container {
+.pie-container {
     width: 100px;
     height: 100px;
     margin: 10px auto 0;
@@ -32,7 +32,7 @@ div {
     line-height: 100px;
 }
 
-.pipe {
+.pie {
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -42,7 +42,7 @@ div {
     z-index: 30;
 }
 
-.pipe-inner-container {
+.pie-inner-container {
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -53,7 +53,7 @@ div {
     clip: rect(0 48px 100px 0);
 }
 
-.pipe-circle1 {
+.pie-circle1 {
     position: absolute;
     width: 4px;
     height: 4px;
@@ -63,7 +63,7 @@ div {
     left: 46px;
 }
 
-.pipe-circle2 {
+.pie-circle2 {
     position: absolute;
     width: 4px;
     height: 4px;
@@ -74,7 +74,7 @@ div {
     top: 96px;
 }
 
-.pipe-circle-zero {
+.pie-circle-zero {
     border-radius: 50% 0 0 50%;
 }
 
